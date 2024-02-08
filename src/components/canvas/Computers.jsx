@@ -61,7 +61,6 @@ const ComputersCanvas = () => {
         <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
-      <OrbitControls />
     </Canvas>
   );
 };
