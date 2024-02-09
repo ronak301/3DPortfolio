@@ -9,7 +9,7 @@ import { styles } from "../styles";
 const Tech = () => {
   return (
     <motion.div variants={slideIn("right", "tween", 0.2, 1)}>
-      <p className={styles.sectionSubText}>Technologies i have worked</p>
+      <p className={styles.sectionSubText}>Technologies i have worked with</p>
       <h2 className={styles.sectionHeadText}>Tech</h2>
       <div className="mt-12 gap-10 flex flex-row flex-wrap justify-center">
         {technologies.map((tech, index) => (
