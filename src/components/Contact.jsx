@@ -16,9 +16,43 @@ const Contact = () => {
     message: "",
   });
 
-  const handleChange = () => {};
+  const handleChange = (e) => {
+    const {
+      target: { name, value },
+    } = e;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .send(
+        "service_9hfaizs",
+        "template_gsnhsog",
+        {
+          from_name: form.name,
+          to_name: "Ronak",
+          from_email: form.email,
+          to_email: "ronakkothari301@gmail.com",
+          message: form.message,
+        },
+        "uguF-eDxbSv_0uBhG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setLoading(false);
+          alert("I will get back to you as soon as possible!");
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.log(error.text);
+          setLoading(false);
+          alert("Something went wrong! Please try again.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
