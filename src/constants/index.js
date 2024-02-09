@@ -202,8 +202,7 @@ const projects = [
       },
     ],
     image: rnsb,
-    source_code_link:
-      "https://github.com/ronak301/react-native-scrollable-header/blob/master/package.json",
+    source_code_link: "https://github.com/ronak301/react-native-submit-button",
   },
   {
     name: "React native Scrollable Header",
