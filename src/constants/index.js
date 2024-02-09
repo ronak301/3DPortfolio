@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  phonepe,
+  sprinklr,
+  tigerhall,
+  parivaar,
   carrent,
   jobit,
   tripguide,
@@ -42,35 +42,31 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "React Native",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Expo",
+    icon: web,
+  },
+  {
+    title: "AR/VR",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Animations",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "TypeScript",
@@ -93,10 +89,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -109,62 +101,65 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Product Engineer",
+    company_name: "Sprinklr",
+    icon: sprinklr,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2015 - Feb 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained projects with objective C.",
+      "Initial adopter of react native in side projects and later in main projects. Shared 95% of code in web and mobile in one of our project.",
+      "Created more than 5 projects in react native and delivered them successfully. Moreover code was shared with web as well.",
+      "Mentored and trained 3 juniors in react native and helped them deliver quality features with clean code, code reviews and best coding practices.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Senior Software Engineer",
+    company_name: "Phonepe",
+    icon: phonepe,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2018 - May 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Single handedly developed and delivered train booking system as one of the micro app in Phonepe Switch Team.",
+      "Created React native lite, barebobe react native library needed for our micro apps. It was used by 10+ teams.",
+      "Increased performance of train booking system by 30% by optimizing network calls and caching.",
+      "Implemented complex animations and transitions in react native.",
+      "Discovered and implemented new technologies to maximize development efficiency. I have written small tool to log network requests in react native.",
+      "Worked on integrating and maintaining payment gateway in Phonepe Switch Team.",
+      "One of the interesting R&D was to embed react native template inside native android/ios page. Owned it right from R&D to delivery and later maintained it.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mobile Lead Engineer",
+    company_name: "Tigerhall",
+    icon: tigerhall,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2020 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed tigerhall mobile app and webapp from scratch keeping scalability and performance in mind. (I was first frontend engineer in Tigerhall after VP).",
+      "We delivered first cut of mobile app in 3.5 months. Lots of Cross teams coordinations between CS, Business, Product and Tech team to brainstrorm issues/features.",
+      "Worked on Automated release pipelines for both IOS and Android (for codepush as well), later linked with JIRA and slack as well.",
+      "Mentored and nurtured team of 3 juniors, help them deliver quality features with clean code, code reviews and best coding practices. Introduced lot of quality features over the years like - smooth animations (reanimated3.0), feature flags, livestream, UI tests, sonarcube, module pattern etc",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Founder",
+    company_name: "Parivaar",
+    icon: parivaar,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Dec 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building a platform for local communities to connect with each other and maintain digital records of their community events and activities.",
+      "Built mobile app, webapp, admin panel using react native, expo and react js.",
+      "Built out MVP in 2 months and launched it in 3 communities. Currently working on scaling it to 100 communities.",
+      "parivaarapp.in",
     ],
   },
 ];
