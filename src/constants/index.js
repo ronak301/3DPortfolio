@@ -5,13 +5,10 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -19,9 +16,9 @@ import {
   sprinklr,
   tigerhall,
   parivaar,
-  carrent,
-  jobit,
-  tripguide,
+  rnsb,
+  rnsh,
+  rnec,
   threejs,
 } from "../assets";
 
@@ -65,8 +62,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "React native",
+    icon: reactjs,
   },
   {
     name: "TypeScript",
@@ -93,11 +90,11 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
@@ -167,93 +164,86 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "If you're looking for a person who is hardworking, prioritizes user experience, and has great technical skills, Ronak is the one! He is someone who always takes the initiative to optimize processes and prioritize work based on delivering maximum value to the end user. I could count on him to explain technical knowledge in a simple manner for me to understand. A great leader, team player, and friend working with Ronak has been such a wonderful experience!",
+    name: "Aishwarya Sriram",
+    designation: "Product Manager",
+    company: "Tigerhall",
+    image: "https://randomuser.me/api/portraits/women/1.jpg",
+  },
+  {
+    testimonial: `He led our squad! 
+From the very beginning of my onboarding process, Ronak took the initiative to ensure that I had all the necessary information about the products and services we offer. His ability to create a positive and inclusive team culture fosters collaboration and promotes a sense of belonging among team members.
+His dedication to helping others, exceptional knowledge, and outstanding leadership qualities make him an invaluable asset to any team`,
+    name: "Heena",
+    designation: "Frontend Lead",
+    company: "Tigerhall",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: `Ronak is an experienced mobile and front-end engineer, and definitely a great guy! He always delivers high-quality work with humility, focus and integrity. He has been an incredible colleague at Tigerhall, a pleasure to work with him, always ready to help others and share his insights, open to give and receive feedback.
+
+Good technical skills can be developed easily, but humility and integrity not. He has it all!`,
+    name: "Carlos Fernandez",
+    designation: "Frontend Lead",
+    company: "Tigerhall",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "React native submit button",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Open Source React Native package to create a submit button with loading and success state.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: rnsb,
+    source_code_link:
+      "https://github.com/ronak301/react-native-scrollable-header/blob/master/package.json",
   },
   {
-    name: "Job IT",
+    name: "React native Scrollable Header",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "React Native Project cloning spotify like scrollable header with animation and parallax effect.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "expo",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: rnsh,
+    source_code_link:
+      "https://github.com/ronak301/react-native-scrollable-header",
   },
   {
-    name: "Trip Guide",
+    name: "React native Expanding Collection",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "React Native package to create an expanding collection with shared element transition effect.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "react-native-reanimated",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "expo",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: rnec,
+    source_code_link:
+      "https://github.com/ronak301/react-native-expanding-collection",
   },
 ];
 

@@ -20,7 +20,7 @@ const ProjectCard = ({
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[280px]">
           <img
             src={image}
             alt={name}
@@ -41,7 +41,7 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white text-[24px] font-bold">{name}</h3>
+          <h3 className="text-white text-[20px] font-bold">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -61,7 +61,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Projects</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p

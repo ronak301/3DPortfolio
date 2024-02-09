@@ -30,16 +30,21 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overiew.</h2>
+        <h2 className={styles.sectionHeadText}>Overiew</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a Full Stack Developer with a passion for creating and developing
-        mobile and web applications. I have a keen interest in building scalable
-        and efficient mobile and web applications that are user-friendly and
-        provide a great user experience. I am a quick learner and always open to
-        learning new technologies and frameworks.
+        With over 9 years of expertise in mobile development, specializing in
+        iOS and Android apps utilizing React Native and Expo, I bring a wealth
+        of experience to every project. From concept to execution, I excel in
+        delivering top-notch, user-centric applications that exceed client
+        expectations. Alongside my technical skills, I have a genuine passion
+        for mentoring students, guiding them towards mastering the intricacies
+        of mobile development. As a mentor, I provide personalized support and
+        guidance, empowering students to achieve their full potential in the
+        field. My commitment to excellence and dedication to nurturing talent
+        make me a valuable asset to any team or learning environment.
       </motion.p>
       <div className="mt-20 gap-10 flex flex-wrap">
         {services.map((service, index) => (

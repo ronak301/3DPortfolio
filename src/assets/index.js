@@ -26,9 +26,9 @@ import tigerhall from "./company/tigerhall.jpeg";
 import sprinklr from "./company/sprinklr.png";
 import parivaar from "./company/parivaar.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import rnsb from "./rnsb.gif";
+import rnsh from "./rnsh.gif";
+import rnec from "./rnec.gif";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   tigerhall,
   sprinklr,
   parivaar,
-  carrent,
-  jobit,
-  tripguide,
+  rnsb,
+  rnsh,
+  rnec,
 };
