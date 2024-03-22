@@ -113,7 +113,7 @@ const experiences = [
     points: [
       `Founded Parivaar, an online community management platform.`,
       `Utilized Expo for rapid Android and iOS app deployment.`,
-      `Implemented various modules including self onboarding, directory management, user filtering, community management, dynamic flags`,
+      `Implemented various modules including self onboarding, directory management, user filtering, community management, dynamic flags.`,
       `Scaled to 10K users, acquired 5 clients in 3 months, enhancing community engagement.`,
     ],
   },
@@ -126,7 +126,6 @@ const experiences = [
     date: "August 2020 - June 2023",
     points: [
       "Spearheaded end-to-end development and launch of mobile products with user-centric design",
-      "",
       "Fostered cross-departmental collaboration, particularly with Customer Support.",
       "Mentored development teams, ensuring proficiency in iOS/Android and agile methodologies while managing project timelines and milestones.",
     ],
