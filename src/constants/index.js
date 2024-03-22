@@ -105,18 +105,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Product Engineer",
-    company_name: "Sprinklr",
-    icon: sprinklr,
-    iconBg: "#383E56",
-    date: "Jan 2015 - Feb 2018",
+    title: "Founder",
+    company_name: "Parivaar",
+    icon: parivaar,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Present",
     points: [
-      "Developed and maintained projects with objective C.",
-      "Initial adopter of react native in side projects and later in main projects. Shared 95% of code in web and mobile in one of our project.",
-      "Created more than 5 projects in react native and delivered them successfully. Moreover code was shared with web as well.",
-      "Mentored and trained 3 juniors in react native and helped them deliver quality features with clean code, code reviews and best coding practices.",
+      `Founded Parivaar, an online community management platform.`,
+      `Utilized Expo for rapid Android and iOS app deployment.`,
+      `Implemented various modules including self onboarding, directory management, user filtering, community management, dynamic flags`,
+      `Scaled to 10K users, acquired 5 clients in 3 months, enhancing community engagement.`,
     ],
   },
+
+  {
+    title: "Mobile Lead Engineer",
+    company_name: "Tigerhall",
+    icon: tigerhall,
+    iconBg: "#383E56",
+    date: "August 2020 - June 2023",
+    points: [
+      "Spearheaded end-to-end development and launch of mobile products with user-centric design",
+      "",
+      "Fostered cross-departmental collaboration, particularly with Customer Support.",
+      "Mentored development teams, ensuring proficiency in iOS/Android and agile methodologies while managing project timelines and milestones.",
+    ],
+  },
+
   {
     title: "Senior Software Engineer",
     company_name: "Phonepe",
@@ -124,39 +139,21 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2018 - May 2020",
     points: [
-      "Single handedly developed and delivered train booking system as one of the micro app in Phonepe Switch Team.",
-      "Created React native lite, barebobe react native library needed for our micro apps. It was used by 10+ teams.",
-      "Increased performance of train booking system by 30% by optimizing network calls and caching.",
-      "Implemented complex animations and transitions in react native.",
-      "Discovered and implemented new technologies to maximize development efficiency. I have written small tool to log network requests in react native.",
-      "Worked on integrating and maintaining payment gateway in Phonepe Switch Team.",
-      "One of the interesting R&D was to embed react native template inside native android/ios page. Owned it right from R&D to delivery and later maintained it.",
+      "Developed React Native microapps within the PhonePe ecosystem.",
+      "Leveraged expertise in React Native and native development to deliver high-quality microapps.",
+      "Collaborated closely with native developers to integrate microapps smoothly.",
     ],
   },
+
   {
-    title: "Mobile Lead Engineer",
-    company_name: "Tigerhall",
-    icon: tigerhall,
+    title: "Product Engineer",
+    company_name: "Sprinklr",
+    icon: sprinklr,
     iconBg: "#383E56",
-    date: "June 2020 - Oct 2023",
+    date: "Jan 2015 - Feb 2018",
     points: [
-      "Designed and developed tigerhall mobile app and webapp from scratch keeping scalability and performance in mind. (I was first frontend engineer in Tigerhall after VP).",
-      "We delivered first cut of mobile app in 3.5 months. Lots of Cross teams coordinations between CS, Business, Product and Tech team to brainstrorm issues/features.",
-      "Worked on Automated release pipelines for both IOS and Android (for codepush as well), later linked with JIRA and slack as well.",
-      "Mentored and nurtured team of 3 juniors, help them deliver quality features with clean code, code reviews and best coding practices. Introduced lot of quality features over the years like - smooth animations (reanimated3.0), feature flags, livestream, UI tests, sonarcube, module pattern etc",
-    ],
-  },
-  {
-    title: "Founder",
-    company_name: "Parivaar",
-    icon: parivaar,
-    iconBg: "#E6DEDD",
-    date: "Dec 2023 - Present",
-    points: [
-      "Building a platform for local communities to connect with each other and maintain digital records of their community events and activities.",
-      "Built mobile app, webapp, admin panel using react native, expo and react js.",
-      "Built out MVP in 2 months and launched it in 3 communities. Currently working on scaling it to 100 communities.",
-      "parivaarapp.in",
+      "Began career at Sprinklr maintaining iOS apps in Objective-C.",
+      "Leveraged expertise in both Objective-C and React Native to troubleshoot and optimize apps. Played a pivotal role in maintaining and evolving Sprinklr's React Native mobile offerings.",
     ],
   },
 ];
