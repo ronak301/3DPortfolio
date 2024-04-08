@@ -100,7 +100,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-black py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl">
+            className="bg-black py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl text-white-100">
             {loading ? "Sending..." : "Send"}
           </button>
         </form>

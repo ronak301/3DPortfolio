@@ -32,9 +32,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "blogs",
+    title: "Blog",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+
   {
     id: "github",
     title: "Github",
@@ -43,6 +48,9 @@ export const navLinks = [
   },
   {
     id: "resume",
+    title: "Resume",
+    isExternal: true,
+    link: "https://drive.google.com/file/d/1tUccyMuDT2UstFOwLdANRwaD_GSn22DM/view?usp=drive_link",
   },
 ];
 
@@ -109,6 +117,19 @@ const technologies = [
   {
     name: "Docker",
     icon: docker,
+  },
+];
+
+const blogs = [
+  {
+    title: "First Blog",
+    description: "First Blog Description",
+    datePublished: "2021-10-10",
+  },
+  {
+    title: "Second Blog",
+    description: "Second Blog Description",
+    datePublished: "2021-10-10",
   },
 ];
 
@@ -251,4 +272,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, blogs };
