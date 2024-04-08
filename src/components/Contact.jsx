@@ -72,7 +72,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              className="bg-tertiary px-6 py-4 text-secondary rounded-lg text-white outlined-none norder-none font-medium"
+              className="bg-white px-6 py-4 text-black rounded-lg text-black outlined-none norder-none font-medium"
               placeholder="What's your name?"
             />
           </label>
@@ -83,7 +83,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              className="bg-tertiary px-6 py-4 text-secondary rounded-lg text-white outlined-none norder-none font-medium"
+              className="bg-white px-6 py-4 text-black rounded-lg text-black outlined-none norder-none font-medium"
               placeholder="What's your email?"
             />
           </label>
@@ -94,13 +94,13 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              className="bg-tertiary px-6 py-4 text-secondary rounded-lg text-white outlined-none norder-none font-medium"
+              className="bg-white px-6 py-4 text-black rounded-lg text-black outlined-none norder-none font-medium"
               placeholder="What do you want to say?"
             />
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl">
+            className="bg-black py-3 px-8 outline-none w-fit font-bold shadow-md shadow-primary rounded-xl">
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
