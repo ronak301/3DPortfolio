@@ -27,6 +27,16 @@ const Navbar = () => {
           {navLinks.map((link) => {
             const href = link.isExternal ? link.link : `#${link.id}`;
             const target = link.isExternal ? "_blank" : "";
+            // if (link.id === "resume") {
+            //   return (
+            //     <button
+            //       className={`${
+            //         active === link?.title ? "text-white" : "text-secondary"
+            //       } hover:text-white text-[18px] font-medium cursor-pointer`}>
+            //       Resume
+            //     </button>
+            //   );
+            // }
             return (
               <li
                 key={link.id}
@@ -55,22 +65,24 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {navLinks.map((link) => (
-                <li
-                  key={link.id}
-                  className={`${
-                    active === link?.title ? "text-white" : "text-secondary"
-                  } font-poppins text-[16px] font-medium cursor-pointer`}>
-                  <a
-                    href={`#${link.id}`}
-                    onClick={() => {
-                      setToggle(!toggle);
-                      setActive(link.title);
-                    }}>
-                    {link.title}
-                  </a>
-                </li>
-              ))}
+              {navLinks.map((link) => {
+                return (
+                  <li
+                    key={link.id}
+                    className={`${
+                      active === link?.title ? "text-white" : "text-secondary"
+                    } font-poppins text-[16px] font-medium cursor-pointer`}>
+                    <a
+                      href={`#${link.id}`}
+                      onClick={() => {
+                        setToggle(!toggle);
+                        setActive(link.title);
+                      }}>
+                      {link.title}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

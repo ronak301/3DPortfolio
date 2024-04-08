@@ -41,6 +41,9 @@ export const navLinks = [
     isExternal: true,
     link: "https://github.com/ronak301",
   },
+  {
+    id: "resume",
+  },
 ];
 
 const services = [
