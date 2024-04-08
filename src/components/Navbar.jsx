@@ -24,17 +24,24 @@ const Navbar = () => {
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active === link?.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}>
-              <a href={`#${link.id}`} onClick={() => setActive(link.title)}>
-                {link.title}
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link) => {
+            const href = link.isExternal ? link.link : `#${link.id}`;
+            const target = link.isExternal ? "_blank" : "";
+            return (
+              <li
+                key={link.id}
+                className={`${
+                  active === link?.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}>
+                <a
+                  target={target}
+                  href={href}
+                  onClick={() => setActive(link.title)}>
+                  {link.title}
+                </a>
+              </li>
+            );
+          })}
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

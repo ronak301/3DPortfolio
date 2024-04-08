@@ -8,7 +8,14 @@ import { styles } from "../styles";
 
 const Tech = () => {
   return (
-    <motion.div variants={slideIn("right", "tween", 0.2, 1)}>
+    <motion.div
+      variants={slideIn("right", "tween", 0.2, 1)}
+      style={{
+        backgroundColor: "#151030",
+        padding: 32,
+        paddingBottom: 48,
+        borderRadius: 16,
+      }}>
       <p className={styles.sectionSubText}>Technologies i have worked with</p>
       <h2 className={styles.sectionHeadText}>Tech</h2>
       <div className="mt-12 gap-10 flex flex-row flex-wrap justify-center">

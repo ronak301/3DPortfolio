@@ -35,6 +35,12 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "github",
+    title: "Github",
+    isExternal: true,
+    link: "https://github.com/ronak301",
+  },
 ];
 
 const services = [
